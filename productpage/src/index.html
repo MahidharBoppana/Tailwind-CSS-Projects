@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="container mx-auto flex justify-between items-center mb-10">
+      <div class="flex sm:gap-10">
+        <img class="object-contain" src="./images/menu.png" alt="" />
+        <h1 class="font-bold text-7xl">ZARA</h1>
+      </div>
+      <form action="">
+        <input
+          class="outline-none border-b-2 border-gray-500 w-25 placeholder:text-black"
+          type="search"
+          name=""
+          id=""
+          placeholder="search"
+        />
+      </form>
+      <div>
+        <ul class="flex space-x-5 text-gray-600">
+          <li><a href="#">LOGIN</a></li>
+          <li><a href="#">HELP</a></li>
+          <li>
+            <a href="#"
+              ><img class="w-6" src="./images/add-to-cart.png" alt=""
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="flex flex-col md:flex container mx-auto relative">
+     <div class="lg:flex">
+         <!-- left -->
+     <div class="hidden h-screen lg:block w-90 ">
+        <div class="xl:flex xl:flex-col xl:items-center xl:justify-end xl:space-y-5">
+         <h1 class="font-semibold text-xl ">MATERIALS, CARE AND ORIGIN MATERIALS</h1>
+         <h2 class="font-semibold text-lg">MATERIALS</h2>
+         <P class="text-gray-500">We work with monitaring programs to ensure compilance with our social, environmental and health and safety standards for our garments</P>
+         <p class="text-gray-500">To assests compliance, we have developed a programe of adults and continous improvement plans</p>
+   
+         <span class="font-semibold text-md">OUTER SHELL</span>
+         <p class="text-gray-600">100% cotton</p>
+   
+         <div class="flex flex-col">
+             <span class="font-semibold">CARE</span>
+         <a class="underline text-gray-600" href="#">View more</a>
+         </div>
+        </div>
+      </div>
+ 
+      <!-- middle -->
+ 
+      <div class="md:flex gap-5">
+         <div class="flex justify-center mb-5">
+             <img class="w-100 object-cover lg:w-1/2 md:w-full" src="./images/shirt.jpg" alt="">
+          </div>
+     
+          <!-- right -->
+     
+          <div class="container mx-auto h-screen w-80 flex flex-col gap-6 justify-center items-center sm:w-80">
+             <div class="flex gap-4">
+                 <h1  class="font-bold text-center text-2xl">DENIM OVERSHIRT WITH RHINESTONES</h1>
+                 <img class="object-contain cursor-pointer" src="./images/save-instagram.png" alt="">
+             </div>
+             <p class="text-gray-400">Collared overshirt featuring long sleeves with cuffs. front pockets. Rhinestones applique details. Button-up front</p>
+             <p class="text-gray-400">GERY | 4877/245</p>
+     
+             <p><strike>49.99 GBP</strike> <span class="bg-amber-200 p-0.5">-40% 29.99 GBP</span></p>
+             <div class="border-b-2 border-gray-500 w-full"></div>
+                 <div class="sm:hidden flex gap-15 justify-between">
+                     <h3 class="font-semibold underline">FIND YOUR SIZE</h3>
+                 <P  class="font-semibold underline cursor-pointer ">SIZE GUIDE</P>
+                 </div>
+             <ul class="flex gap-5 font-bold ">
+                 <li class="hover:text-gray-400 cursor-pointer">XS</li>
+                 <li class="hover:text-gray-400 cursor-pointer">S</li>
+                 <li class="hover:text-gray-400 cursor-pointer">M</li>
+                 <li class="hover:text-gray-400 cursor-pointer">L</li>
+                 <li class="hover:text-gray-400 cursor-pointer">XL</li>
+             </ul>
+             <div class="border-b-2 border-gray-500 w-full"></div>
+             <P class="text-gray-400 hidden md:block">This Product has a lager fit than usual.</P>
+             <div class="border-b-2 border-gray-500 w-full"></div>
+             <div class="hidden sm:block md:flex gap-15 justify-between">
+                 <h3 class="font-semibold underline">FIND YOUR SIZE</h3>
+             <P  class="font-semibold underline cursor-pointer ">SIZE GUIDE</P>
+             </div>
+             <div>
+                 <button class="bg-black text-white px-8 py-4 tracking-wide hover:bg-gray-800 sm:w-80 sm:py-3 cursor-pointer" type="submit">ADD TO BAG</button>
+             </div>
+             <P class="text-gray-500 font-medium">CHECK IN-STORE AVAILABILITY</P>
+             <P class="text-gray-500 font-medium">DELIVERY, EXCHANGES AND RETURNS</P>
+          </div>
+      </div>
+     </div>
+    </main>
+  </body>
+</html>

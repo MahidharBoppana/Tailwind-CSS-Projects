@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="bg-black">
+      <div class="container mx-auto flex justify-between items-center p-3">
+        <form action="" class="flex gap-2 items-center">
+          <img
+            class="w-4 h-4"
+            src="../images/search-interface-symbol.png"
+            alt=""
+          /><input
+            class="placeholder:text-white outline-none hover:border-b-2 hover:border-white w-20 text-white"
+            type="search"
+            name=""
+            id=""
+            placeholder="search"
+          />
+        </form>
+        <ul class="flex space-x-3">
+          <li>
+            <a href="#"
+              ><img src="../images/facebook-app-symbol.png" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="#"><img src="../images/linkedin.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="../images/twitter.png" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- navbar 2 -->
+
+    <div>
+      <div class="container mx-auto flex justify-between items-center p-4">
+        <h1 class="font-bold text-3xl">Turning Heads</h1>
+        <ul class="hidden sm:block sm:flex space-x-3">
+          <li><a class="font-bold hover:text-[#bb5a3a]" href="#">Home</a></li>
+          <li>
+            <a class="font-bold hover:text-[#bb5a3a]" href="#">My Blog</a>
+          </li>
+          <li><a class="font-bold hover:text-[#bb5a3a]" href="#">About</a></li>
+          <li>
+            <a class="font-bold hover:text-[#bb5a3a]" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- main -->
+
+    <div class="flex space-x-2">
+      <img class="hidden md:block h-full w-md" src="../images/1.avif" alt="" />
+      <div class="flex flex-col space-y-7">
+        <img class="h-140 w-lg object-cover" src="../images/2.avif" alt="" />
+        <h1 class="text-5xl font-bold text-center">My Life. My Blog.</h1>
+      </div>
+      <img class="h-full w-md hidden md:block" src="../images/3.avif" alt="" />
+    </div>
+
+    <!-- blog -->
+
+    <div class="container mx-auto my-30 flex gap-20 relative">
+      <div class="flex flex-col gap-10">
+        <div class="flex gap-4 border-1 border-gray-300 w-150">
+          <img class="h-full w-70 object-cover" src="../images/4.webp" alt="" />
+          <div class="w-70 text-center flex flex-col gap-5 mt-10">
+            <p class="text-sm">Mar 22, 2023 2 min read</p>
+            <h1 class="font-bold text-3xl">
+              Transform your winter blues into winter creativity
+            </h1>
+            <p class="text-md">
+              Create a blog post subtitle that summarizes your post in a few
+              short, punchy sentences and...
+            </p>
+          </div>
+        </div>
+        <div class="flex gap-4 border-1 border-gray-300 w-150">
+          <img class="h-full w-70 object-cover" src="../images/5.webp" alt="" />
+          <div class="w-70 text-center flex flex-col gap-5 mt-10">
+            <p class="text-sm">Mar 22, 2023 2 min read</p>
+            <h1 class="font-bold text-3xl">
+              Transform your winter blues into winter creativity
+            </h1>
+            <p class="text-md">
+              Create a blog post subtitle that summarizes your post in a few
+              short, punchy sentences and...
+            </p>
+          </div>
+        </div>
+
+        <div class="flex gap-4 border-1 border-gray-300 w-150">
+          <img class="h-full w-70 object-cover" src="../images/6.webp" alt="" />
+          <div class="w-70 text-center flex flex-col gap-5 mt-10">
+            <p class="text-sm">Mar 22, 2023 2 min read</p>
+            <h1 class="font-bold text-3xl">
+              Transform your winter blues into winter creativity
+            </h1>
+            <p class="text-md">
+              Create a blog post subtitle that summarizes your post in a few
+              short, punchy sentences and...
+            </p>
+          </div>
+        </div>
+        <button
+          class="px-6 py-3 bg-[#bb5a3a] mt-10 text-white font-bold cursor-pointer w-40 hover:bg-black hover:text-white"
+        >
+          All Posts
+        </button>
+      </div>
+
+      <div class="bg-[#FEF2F0] p-15 gap-5">
+        <div class="bg-[#BB5A3B] p-15 flex flex-col gap-10">
+          <h1 class="font-bold text-white text-5xl">
+            Let the posts <br />
+            come to you.
+          </h1>
+          <form action="" class="flex flex-col gap-5">
+            <label class="text-white text-lg font-bold" for="">Email</label>
+            <input
+              class="text-white outline-none border-b-2 border-white"
+              type="email"
+              name=""
+              id=""
+            />
+            <label class="flex items-center space-x-2">
+              <input
+                type="checkbox"
+                class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
+              />
+              <span class="text-white"
+                >Yes, subscribe me to your newsletter.*</span
+              >
+            </label>
+
+            <button
+              class="text-[#BB5A3B] font-bold text-lg bg-white px-3 py-4 rounded-lg hover:bg-black hover:text-white"
+              type="submit"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+
+        <h1 class="font-bold text-3xl text-center text-black mt-10">
+          Find me on Instagram
+        </h1>
+        <div class="grid grid-cols-2 gap-3 absolute right-0 mt-10">
+          <div>
+            <img
+              class="w-50 h-50 object-cover"
+              src="../images/pexels-a-rvin-416970448-29367189.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="w-50 h-50 object-cover"
+              src="../images/pexels-cileklipalet-30729429.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="w-50 h-50 object-cover"
+              src="../images/pexels-eugenia-sol-1769194548-30922284.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="w-50 h-50 object-cover"
+              src="../images/pexels-samuel-acevedo-2149453155-30982689.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="w-50 h-50 object-cover"
+              src="../images/pexels-shaosong-sun-503031340-16171084.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="w-50 h-50 object-cover"
+              src="../images/pexels-suedadilli-30749333.jpg"
+              alt=""
+            />
+          </div>
+          <ul class="flex gap-5 justify-start">
+            <li>
+              <img
+                class="w-7"
+                src="../images/facebook-app-symbol (1).png"
+                alt=""
+              />
+            </li>
+            <li><img class="w-7" src="../images/instagram.png" alt="" /></li>
+            <li><img class="w-7" src="../images/whatsapp.png" alt="" /></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <h1 class="font-bold text-5xl text-center mb-10">
+      Let me know what's on your mind
+    </h1>
+    <div class="container mx-auto w-200">
+      <form action="" class="flex flex-col gap-10">
+        <div class="flex gap-10">
+          <div class="flex flex-col gap-5 w-100">
+            <label for="" class="">First Name*</label>
+            <input
+              class="outline-none border-b-1 border-black w-full"
+              type="text"
+            />
+          </div>
+          <div class="flex flex-col gap-5 w-100">
+            <label for="">Last Name*</label>
+            <input
+              class="outline-none border-b-1 border-black w-full"
+              type="text"
+            />
+          </div>
+        </div>
+        <label for="">Email</label>
+        <input
+          class="outline-none border-b-1 border-black w-full"
+          type="email"
+          name=""
+          id=""
+        />
+        <label for="">Leave a Message</label>
+        <textarea
+          class="outline-none border-b-1 border-black w-full"
+          name=""
+          id=""
+        ></textarea>
+        <div class="flex justify-center">
+          <button
+            class="bg-[#BB5A3B] px-3 py-4 text-white font-bold hover:bg-black hover:text-white w-50 flex justify-center"
+            type="submit"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <footer class="bg-[#BB5A3B] p-8 mt-20 text-white text-center">
+      <p>© 2035 by Turning Heads. Powered and secured by Wix</p>
+    </footer>
+  </body>
+</html>
